@@ -1,1 +1,63 @@
 /*  your css code here. If applicable */
+*{
+    margin:0px;
+}
+label {
+	display:flex;
+	flex-direction:column;
+	margin-top:10px;
+}
+
+input {
+	border:none;
+	border-bottom:1px solid grey;
+	margin:5px 0px;
+	outline:none
+}
+
+button[id="submit"] {
+	border:none;
+	padding:10px;
+	background-color:#0D6EFD;
+	color:white;
+	font-weight:700;
+	margin-top:20px;
+}
+
+.table {
+	width:100vw;
+	margin-top:20px;
+}
+
+
+thead {
+	width:100%;
+}
+
+tr {
+	width:100%;
+}
+
+th {
+	width:30%;
+	background-color:#F2F2F2;
+	outline:none;
+	padding:5px;
+	text-align:left;
+}
+
+td {
+	width:30%;
+	background-color:#F2F2F2;
+	outline:none;
+	padding:5px;
+}
+
+h1 {
+	text-align:center;
+	font-weight:100;
+}
+
+span {
+	color:#0D6EFD;
+}
